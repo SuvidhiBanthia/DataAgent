@@ -127,7 +127,9 @@ The project is divided into the following modules:
 
 *   Python 3.x
     
-*   Install required libraries: pip install -r requirements.txt 
+*   Install required libraries: pip install -r requirements.txt
+  
+*   Generate a HuggingFace API key and place it in the transformations.py file
 
 ### **4.2 Running the Script**
 
