@@ -107,29 +107,17 @@ The project is divided into the following modules:
 
 ### **3.2 Workflow**
 
-1.  **Input Data** :
-    
-    *   Load the dataset (**assignment\_sample\_data.json**) containing reviews, comments, and metadata.
+1.  **Input Data** : Load the dataset (**assignment\_sample\_data.json**) containing reviews, comments, and metadata.
         
-2.  **Filter Data** :
-    
-    *   Apply user-defined filters (e.g., **review\_star\_rating=5**, **user\_info.age\_group=25-34**).
+2.  **Filter Data** : Apply user-defined filters (e.g., **review\_star\_rating=5**, **user\_info.age\_group=25-34**).
         
-3.  **Project Relevant Fields** :
-    
-    *   Extract only the necessary fields (e.g., **content**, **review\_star\_rating**, **user\_info**).
+3.  **Project Relevant Fields** : Extract only the necessary fields (e.g., **content**, **review\_star\_rating**, **user\_info**).
         
-4.  **Extract Themes** :
-    
-    *   Identify broad themes of conversation for a given topic (e.g., "skin").
+4.  **Extract Themes** : Identify broad themes of conversation for a given topic (e.g., "skin").
         
-5.  **Generate Schema Mapping** :
-    
-    *   Create a standardized schema mapping for platform-specific fields.
+5.  **Generate Schema Mapping** : Create a standardized schema mapping for platform-specific fields.
         
-6.  **Save Output** :
-    
-    *   Write the filtered data and extracted themes to JSON files (**filtered\_output.json**, **themes\_output.json**).
+6.  **Save Output** : Write the filtered data and extracted themes to JSON files (**filtered\_output.json**, **themes\_output.json**).
         
 
 **4\. Usage Instructions**
@@ -145,7 +133,7 @@ The project is divided into the following modules:
 
 1.  Place the dataset (**assignment\_sample\_data.json**) in the project directory.
     
-2.  Run the script: python main.py
+2.  Run the script: python src/main.py
     
 3.  Follow the prompts (Specify whether to apply filters and/or extract themes).
         
