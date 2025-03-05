@@ -155,7 +155,7 @@ The project is divided into the following modules:
 2.  Scalability : Optimize the code to handle larger datasets efficiently.
         
 
-**7\. Known Limitations**
+**6\. Known Limitations**
 -------------------------
 
 1.  **Static Number of Clusters** : The number of clusters (**num\_clusters**) is fixed and may need tuning for different datasets.
